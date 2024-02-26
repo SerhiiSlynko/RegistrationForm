@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./CSS/style.css ">
+  <title>Форма Реєстрації</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <h1>Реєстрація</h1>
+    <p>Будь ласка, заповніть цю форму необхідною інформацією</p>
+    <form id="register-form">
+      <input type="text" id="username" placeholder="Ім'я користувача" required>
+      <input type="email" id="email" placeholder="Електронна пошта" required>
+      <input type="password" id="password" placeholder="Пароль" required>
+      <button type="submit">Зареєструватися</button>
+    </form>
+
+    <h2>Вхід</h2>
+    <form id="login-form">
+      <input type="email" id="login-email" placeholder="Електронна пошта" required>
+      <input type="password" id="login-password" placeholder="Пароль" required>
+      <button type="submit">Увійти</button>
+    </form>
+
+    <h2>Уроки</h2>
+    <ul id="lessons-list">
+      <!-- Список уроків буде виведено тут -->
+    </ul>
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
